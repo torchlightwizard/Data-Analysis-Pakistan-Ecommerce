@@ -1,0 +1,194 @@
+﻿{
+    "name": "Innovate",
+    "dataColors": ["#ef476f","#ffd166","#06d6a0","#118ab2","#073b4c"],
+    "foreground": "#FFFFFF",
+    "foregroundNeutralSecondary": "#D2D0CE",
+    "foregroundNeutralTertiary": "#979593",
+    "background": "#001524",
+    "backgroundLight": "#3B3A39",
+    "backgroundNeutral": "#605E5C",
+    "tableAccent": "#2878BD",
+    "maximum": "#06d6a0",
+    "center": "#ffd166",
+    "minimum": "#ef476f",
+    "hyperlink": "#2878BD",
+    "visitedHyperlink": "#D0E4F5",
+    "textClasses": {
+        "callout": {
+            "fontFace": "Arial",
+            "color": "#FFFFFF"
+        },
+        "title": {
+            "fontFace": "Arial",
+            "color": "#FFFFFF"
+        },
+        "header": {
+            "fontFace": "Arial",
+            "color": "#FFFFFF"
+        },
+        "label": {
+            "fontFace": "Arial",
+            "color": "#FFFFFF"
+        }
+    },
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#001524"
+                            }
+                        }
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "foreground": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": "#001524"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#001524"
+                            }
+                        }
+                    }
+                ],
+                "outspacePane": [
+                    {
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#001524"
+                            }
+                        },
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 0,
+                        "border": true,
+                        "borderColor": {
+                            "solid": {
+                                "color": "#979593"
+                            }
+                        }
+                    }
+                ],
+                "filterCard": [
+                    {
+                        "$id": "Applied",
+                        "transparency": 0,
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#605E5C"
+                            }
+                        },
+                        "inputBoxColor": {
+                            "solid": {
+                                "color": "#605E5C"
+                            }
+                        },
+                        "borderColor": {
+                            "solid": {
+                                "color": "#979593"
+                            }
+                        },
+                        "border": true
+                    },
+                    {
+                        "$id": "Available",
+                        "transparency": 0,
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#001524"
+                            }
+                        },
+                        "inputBoxColor": {
+                            "solid": {
+                                "color": "#001524"
+                            }
+                        },
+                        "borderColor": {
+                            "solid": {
+                                "color": "#979593"
+                            }
+                        },
+                        "border": true
+                    }
+                ]
+            }
+        },
+        "slicer": {
+            "*": {
+                "items": [
+                    {
+                        "background": {
+                            "solid": {
+                                "color": "#001524"
+                            }
+                        }
+                    }
+                ],
+                "numericInputStyle": [
+                    {
+                        "background": {
+                            "solid": {
+                                "color": "#001524"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "keyDriversVisual": {
+            "*": {
+                "keyInfluencersVisual": [
+                    {
+                        "canvasColor": {
+                            "solid": {
+                                "color": "#3B3A39"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "outspace": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#001524"
+                            }
+                        }
+                    }
+                ],
+                "background": [
+                    {
+                        "transparency": 0
+                    }
+                ]
+            }
+        }
+    }
+}
